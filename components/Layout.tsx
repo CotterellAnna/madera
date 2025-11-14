@@ -53,7 +53,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <UnstyledButton>Support</UnstyledButton>
             </AppShell.Navbar>
 
-            <AppShell.Main>
+            <AppShell.Main px={{base: "md", md: "40px"}}>
                 {children}
             </AppShell.Main>
         </AppShell>

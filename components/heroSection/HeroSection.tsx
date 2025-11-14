@@ -15,7 +15,7 @@ const textStyle = {
 
 export default function HeroSection() {
     const { ref: textRef, height: textHeight } = useElementSize();
-    const bgHeight = `calc(75vh - (0.3 * ${textHeight}px) )`;
+    const bgHeight = `calc(80vh - (0.3 * ${textHeight}px) )`;
 
     return (
         <Container fluid w={"100vw"} h={"93vh"} my={"-md"}>
@@ -32,9 +32,9 @@ export default function HeroSection() {
                     backgroundPosition: "center 80%",
                     zIndex: 0,
                 }} />
-            <Grid w={"100%"} px={"60px"} py={"0px"} mb={"0rem"} pos={"absolute"} left={0} top={0}>
+            <Grid w={"100%"} px={"40px"} py={"0px"} mb={"0rem"} pos={"absolute"} left={0} top={0}>
                 <Grid.Col span={8}>
-                    <Group align="flex-end" h={"75vh"}>
+                    <Group align="flex-end" h={"80vh"}>
                         <Title ref={textRef} order={2} tt={"uppercase"} fz={"12rem"} fw={"lighter"} style={textStyle}>
                             Madera
                         </Title>
@@ -47,7 +47,7 @@ export default function HeroSection() {
                         <Image src={"/images/room.jpg"} h={"80px"} w={"80px"} />
                     </Group>
                 </Grid.Col>
-                <Grid.Col span={8} mt={"3rem"}>
+                <Grid.Col span={8} mt={"4rem"}>
                     <Text fw={500} fz={"h1"} style={{ letterSpacing: -2, lineHeight: 1.2 }}>
                         Experience hand-finished woodwork, designed to enrich your space with warmth and character
                     </Text>
