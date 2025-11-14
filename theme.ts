@@ -41,15 +41,21 @@ export const theme = createTheme({
         borderBottom: "0.5px solid #FFFFFF"
       }
     },
+    Title:{
+      defaultProps:{
+        c: madera[9]
+      }
+    },
     Text: {
       defaultProps: {
-        color: "#292524"
+        c: madera[8]
       }
     },
     Button: {
       defaultProps: {
         bg: madera[9],
-        ff: `${cormorantGaramond.style.fontFamily}, sans-serif`
+        ff: `${cormorantGaramond.style.fontFamily}, sans-serif`,
+        size: "md",
       }
     }
   }

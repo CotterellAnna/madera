@@ -47,7 +47,7 @@ export default function HeroSection() {
                         <Image src={"/images/room.jpg"} h={"80px"} w={"80px"} />
                     </Group>
                 </Grid.Col>
-                <Grid.Col span={8} mt={"4rem"}>
+                <Grid.Col span={8} mt={"3rem"}>
                     <Text fw={500} fz={"h1"} style={{ letterSpacing: -2, lineHeight: 1.2 }}>
                         Experience hand-finished woodwork, designed to enrich your space with warmth and character
                     </Text>
