@@ -11,17 +11,6 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             padding="md"
             pos={"relative"}
         >
-            {/* <Container fluid
-                pos={"absolute"}
-                h={"75vh"}
-                w={"100vw"}
-                style={{
-                    backgroundImage: "linear-gradient(to bottom, rgba(23, 22, 22, 0.76), rgba(2, 2, 2, 0.06)), url('/images/hero_section_bg.png')",
-                    backgroundSize: "cover",
-                    backgroundRepeat: "no-repeat",
-                    backgroundPosition: "center 80%",
-                    zIndex: 0,
-                }} /> */}
             <AppShell.Header bg={"transparent"} px={"xl"}>
                 <Group h="100%" px="md">
                     <Group justify="space-between" flex={1}>
