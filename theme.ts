@@ -56,6 +56,9 @@ export const theme = createTheme({
         bg: madera[9],
         ff: `${cormorantGaramond.style.fontFamily}, sans-serif`,
         size: "md",
+        style: {
+          boxShadow: `2px 2px 10px 2px #31211964`
+        }
       }
     }
   }

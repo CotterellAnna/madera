@@ -1,9 +1,9 @@
 import { AppShell, Group, Burger, UnstyledButton, Image, BackgroundImage, Container, Flex, ActionIcon } from "@mantine/core";
-import { useDisclosure } from "@mantine/hooks";
+import { useDisclosure, useWindowScroll } from "@mantine/hooks";
 
 export default function Layout({ children }: { children: React.ReactNode }) {
     const [opened, { toggle }] = useDisclosure();
-
+    const [scroll] = useWindowScroll();
     return (
         <AppShell
             header={{ height: "7vh" }}
@@ -11,7 +11,10 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             padding="md"
             pos={"relative"}
         >
-            <AppShell.Header bg={"transparent"} px={"xl"}>
+            <AppShell.Header bg={"transparent"} px={"xl"} style={{
+                backgroundColor:
+                    scroll.y > 50 ? "var(--mantine-color-madera-9)" : "transparent",
+            }}>
                 <Group h="100%" px="md">
                     <Group justify="space-between" flex={1}>
                         <Group gap={0}>
@@ -42,7 +45,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 <UnstyledButton>Support</UnstyledButton>
             </AppShell.Navbar>
 
-            <AppShell.Main px={{base: "md", md: "40px"}}>
+            <AppShell.Main px={{ base: "md", md: "40px" }}>
                 {children}
             </AppShell.Main>
         </AppShell>
