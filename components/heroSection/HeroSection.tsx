@@ -1,5 +1,5 @@
 import { Button, Container, Grid, Group, Image, Text, Title } from "@mantine/core";
-import { useElementSize } from "@mantine/hooks";
+import { useElementSize, useMediaQuery } from "@mantine/hooks";
 
 const textStyle = {
     "--cut": "70%",
@@ -14,8 +14,9 @@ const textStyle = {
 }
 
 export default function HeroSection() {
+    const isMobile = useMediaQuery('(max-width: 36em)');
     const { ref: textRef, height: textHeight } = useElementSize();
-    const bgHeight = `calc(80vh - (0.3 * ${textHeight}px) )`;
+    const bgHeight = `calc(${isMobile ? "50vh" : "80vh"} - (0.3 * ${textHeight}px) )`;
 
     return (
         <Container fluid w={"100vw"} h={"93vh"} my={"-md"}>
@@ -34,13 +35,13 @@ export default function HeroSection() {
                 }} />
             <Grid w={"100%"} px={"40px"} py={"0px"} mb={"0rem"} pos={"absolute"} left={0} top={0}>
                 <Grid.Col span={8}>
-                    <Group align="flex-end" h={"80vh"}>
-                        <Title ref={textRef} order={2} tt={"uppercase"} fz={"12rem"} fw={"lighter"} style={textStyle}>
+                    <Group align="flex-end" h={isMobile ? "50vh" : "80vh"}>
+                        <Title ref={textRef} order={2} tt={"uppercase"} fz={{base: "5.5rem", md: "12rem"}} fw={"lighter"} style={textStyle}>
                             Madera
                         </Title>
                     </Group>
                 </Grid.Col>
-                <Grid.Col span={4}>
+                <Grid.Col span={4} visibleFrom="md">
                     <Group gap={"md"} align="flex-end" justify="flex-end" h={"100%"}>
                         <Image src={"/images/chair.png"} h={"80px"} w={"80px"} />
                         <Image src={"/images/table.jpg"} h={"80px"} w={"80px"} />
