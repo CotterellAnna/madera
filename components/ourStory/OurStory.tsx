@@ -4,9 +4,9 @@ import { fontClassNames } from "../../styles/font";
 
 export default function OurStory() {
     return (
-        <Stack my={{ base: "md", md: "5rem" }}>
+        <Stack my={{ base: "3rem", md: "5rem" }}>
             <Header />
-            <Grid py={{ base: "md", md: "60px" }}>
+            <Grid py={{ base: "40px", md: "60px" }}>
                 <Grid.Col span={{ base: 12, md: 4.5 }}>
                     <Title tt={"uppercase"}>Our Story</Title>
                     <Text>

@@ -5,7 +5,7 @@ import { products } from "./data";
 
 export default function Bestsellers() {
     return (
-        <Stack mx={{ base: "-md", md: "-40px" }} py={{ base: "md", md: "5rem" }} px={{ base: "md", md: "40px" }} bg={"white"} >
+        <Stack mx={{ base: "-md", md: "-40px" }} py={{ base: "3rem", md: "5rem" }} px={{ base: "30px", md: "40px" }} bg={"white"} >
             <Header />
             <SimpleGrid cols={{ base: 1, md: 3 }} mt={"md"}>
                 {

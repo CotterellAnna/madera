@@ -2,7 +2,7 @@ import { Grid, Image, List, Stack, Text, Title } from "@mantine/core";
 
 export default function OurServices() {
     return (
-        <Stack mx={{ base: "-md", md: "-40px" }} py={{ base: "md", md: "5rem" }} pe={{ base: "md", md: "40px" }} bg={"white"}>
+        <Stack mx={{ base: "-md", md: "-40px" }} py={{ base: "3rem", md: "5rem" }} pe={{ base: "30px", md: "40px" }} bg={"white"}>
             <Grid gutter={"md"}>
                 <Grid.Col span={{ base: 12, md: 7 }} >
                     <Image src={"/images/our_services.jpg"} alt="our services" h={"100%"} />
