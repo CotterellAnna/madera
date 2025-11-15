@@ -9,7 +9,7 @@ export default function OurStory() {
             <Grid py={{ base: "md", md: "60px" }}>
                 <Grid.Col span={{ base: 12, md: 4.5 }}>
                     <Title tt={"uppercase"}>Our Story</Title>
-                    <Text fz={"20px"} fw={300} lh={2}>
+                    <Text>
                         MADERA, meaning 'wood' in Spanish, embodies a deep appreciation for natural materials, craftsmanship, and timeless design. It stands for warmth, durability, and the artistry of crafting pieces that endure for generations.
                     </Text>
                     <Button my={"md"}>

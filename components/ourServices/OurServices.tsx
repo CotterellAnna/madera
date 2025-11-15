@@ -11,7 +11,7 @@ export default function OurServices() {
                     <Image src={"/images/our_services2.png"} alt="our services"/>
                     <Stack maw={"80%"}>
                         <Title mt={"md"} tt={"uppercase"} order={3}>What makes us speacial</Title>
-                        <Text fw={"300"} fz={"20px"} >Handcrafted wood furniture that blends artistry, precision, and sustainability, where modern design meets natural elegance.</Text>
+                        <Text fw={"300"}>Handcrafted wood furniture that blends artistry, precision, and sustainability, where modern design meets natural elegance.</Text>
                         <List mt={"md"} icon={<></>} styles={{
                             itemWrapper: {
                                 borderTop: "1px solid var(--mantine-color-madera-0)",

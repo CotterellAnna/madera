@@ -48,7 +48,10 @@ export const theme = createTheme({
     },
     Text: {
       defaultProps: {
-        c: madera[8]
+        c: madera[8],
+        fz: "20px",
+        fw: 300,
+        lh: 1.6,
       }
     },
     Button: {
