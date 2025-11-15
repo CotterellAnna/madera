@@ -5,6 +5,7 @@ import OurServices from "../components/ourServices/OurServices";
 import Bestsellers from "../components/bestsellers/Bestsellers";
 import Testimonials from "../components/testimonials/Testimonials";
 import Newsletter from "../components/newsletter/Newsletter";
+import Footer from "../components/Footer/Footer";
 
 export default function IndexPage() {
   return (
@@ -16,6 +17,7 @@ export default function IndexPage() {
       <Bestsellers />
       <Testimonials />
       <Newsletter />
+      <Footer />
     </>
   );
 }
