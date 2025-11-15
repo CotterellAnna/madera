@@ -17,13 +17,13 @@ export default function OurStory() {
                     </Button>
                 </Grid.Col>
                 <Grid.Col span={{ base: 12, md: 7.5 }}>
-                    <Flex align={"flex-end"}>
-                        <Image src={"/images/our_story.jpg"} alt="our story" w={450} h={600} />
-                        <Text className={fontClassNames.cormorantGaramond} ms={"lg"} fz={"48px"} fw={700}>
+                    <Flex align={"flex-end"} direction={{base: "column"}}>
+                        <Image src={"/images/our_story.jpg"} alt="our story" w={450} h={{base: 500, md: 600}} />
+                        <Text className={fontClassNames.cormorantGaramond} ms={"lg"} mt={{base: "md", md: 0}} fz={{base: "28px", md: "48px"}} fw={700}>
                             TIMELESS <br /> 
                             FURNITURE <br /> 
                             DESIGNED <br /> 
-                            <Text td={"underline dotted"} fz={"48px"} fw={700} span>
+                            <Text td={"underline dotted"} fz={{base: "28px", md: "48px"}} fw={700} span>
                                 JUST FOR YOU
                             </Text>
                         </Text>
