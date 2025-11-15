@@ -19,7 +19,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     <Group justify="space-between" flex={1}>
                         <Group gap={0}>
                             <ActionIcon variant="transparent" onClick={toggle}>
-                                <Image src={"/images/icons/hamburger.svg"} alt="menu" />
+                                <Image src={"./images/icons/hamburger.svg"} alt="menu" />
                             </ActionIcon>
                         </Group>
                         <Image w={100} src={"/images/logo.svg"} alt="madera" />

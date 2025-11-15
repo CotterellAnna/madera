@@ -6,13 +6,11 @@ const nextConfig = {
   experimental: {
     optimizePackageImports: ["@mantine/core", "@mantine/hooks"],
   },
-  distDir: "/madera",
+  distDir: "/out",
   reactStrictMode: true,
   images: {
     unoptimized: true, 
   },
-  assetPrefix: "/madera",
-  basePath: "/madera",
 };
 
 export default nextConfig;
