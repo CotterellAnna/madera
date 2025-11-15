@@ -19,6 +19,9 @@ export default function OurServices() {
                                 width: "100%",
                                 fontSize: "28px",
                                 fontWeight: 500
+                            },
+                            root:{
+                                padding:0,
                             }
                         }}>
                             <List.Item>Minimalistic Collections</List.Item>
