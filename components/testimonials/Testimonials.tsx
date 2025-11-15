@@ -13,7 +13,7 @@ export default function Testimonials() {
                         Voices of Madera
                     </Title>
                     <Text >
-                        The craftsmanship is impeccable , It's like bringing a piece of art into my living space. Guests always ask where I got my furniture. It feels luxurious, warm, and uniquely mine.
+                        The craftsmanship is impeccable , It&apos;s like bringing a piece of art into my living space. Guests always ask where I got my furniture. It feels luxurious, warm, and uniquely mine.
                     </Text>
                     <Text fw={400} mt={"md"}>
                             — Amaka I., Interior Designer

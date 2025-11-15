@@ -43,9 +43,9 @@ export default function HeroSection() {
                 </Grid.Col>
                 <Grid.Col span={4} visibleFrom="md">
                     <Group gap={"md"} align="flex-end" justify="flex-end" h={"100%"}>
-                        <Image src={"/images/chair.png"} h={"80px"} w={"80px"} />
-                        <Image src={"/images/table.jpg"} h={"80px"} w={"80px"} />
-                        <Image src={"/images/room.jpg"} h={"80px"} w={"80px"} />
+                        <Image src={"/images/chair.png"} alt="chair" h={"80px"} w={"80px"} />
+                        <Image src={"/images/table.jpg"} alt="table" h={"80px"} w={"80px"} />
+                        <Image src={"/images/room.jpg"} alt="room" h={"80px"} w={"80px"} />
                     </Group>
                 </Grid.Col>
                 <Grid.Col span={{base: 12, md: 8}} mt={"3rem"}>
