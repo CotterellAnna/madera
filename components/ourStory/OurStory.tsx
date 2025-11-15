@@ -18,7 +18,7 @@ export default function OurStory() {
                 </Grid.Col>
                 <Grid.Col span={{ base: 12, md: 7.5 }}>
                     <Flex align={"flex-end"}>
-                        <Image src={"/images/our_story.jpg"} w={450} h={600} />
+                        <Image src={"/images/our_story.jpg"} alt="our story" w={450} h={600} />
                         <Text className={fontClassNames.cormorantGaramond} ms={"lg"} fz={"48px"} fw={700}>
                             TIMELESS <br /> 
                             FURNITURE <br /> 

@@ -1,6 +1,7 @@
 import HeroSection from "../components/heroSection/HeroSection";
 import Collections from "../components/collections/collections";
 import OurStory from "../components/ourStory/OurStory";
+import OurServices from "../components/ourServices/OurServices";
 
 export default function IndexPage() {
   return (
@@ -8,6 +9,7 @@ export default function IndexPage() {
       <HeroSection />
       <Collections />
       <OurStory />
+      <OurServices />
     </>
   );
 }
