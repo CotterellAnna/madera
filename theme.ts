@@ -19,6 +19,7 @@ export const theme = createTheme({
   headings: { fontFamily: `${cormorantGaramond.style.fontFamily}, sans-serif` },
   defaultRadius: "xs",
   colors: { madera },
+  primaryColor: "madera",
   components: {
     AppShellMain: {
       defaultProps: {
