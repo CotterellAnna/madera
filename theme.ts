@@ -63,6 +63,11 @@ export const theme = createTheme({
           boxShadow: `2px 2px 10px 2px #31211964`
         }
       }
+    },
+    List: {
+      defaultProps: {
+        c: madera[8]
+      }
     }
   }
 });
