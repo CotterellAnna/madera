@@ -7,6 +7,7 @@ const nextConfig = {
     optimizePackageImports: ["@mantine/core", "@mantine/hooks"],
   },
   basePath: "/madera",
+  assetPrefix: "/madera",
   distDir: "docs"
 };
 
