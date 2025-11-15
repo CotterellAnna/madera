@@ -5,10 +5,10 @@ export default function OurServices() {
         <Stack mx={0} py={{ base: "0", md: "5rem" }} bg={"white"}>
             <Grid gutter={0}>
                 <Grid.Col span={{ base: 12, md: 7 }} >
-                    <Image src={"/images/our_services.jpg"} alt="our services" h={"100%"} />
+                    <Image src={"./images/our_services.jpg"} alt="our services" h={"100%"} />
                 </Grid.Col>
                 <Grid.Col mt={{base: "md", md: 0}} span={{ base: 12, md: 5 }} ps={{base:"30px", md: "md"}} pe={{base: "30px", md : "60px"}}>
-                    <Image src={"/images/our_services2.png"} alt="our services"/>
+                    <Image src={"./images/our_services2.png"} alt="our services"/>
                     <Stack maw={{base: "100%", md: "80%"}}>
                         <Title mt={"md"} tt={"uppercase"} order={3}>What makes us speacial</Title>
                         <Text fw={"300"}>Handcrafted wood furniture that blends artistry, precision, and sustainability, where modern design meets natural elegance.</Text>

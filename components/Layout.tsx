@@ -19,19 +19,19 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     <Group justify="space-between" flex={1}>
                         <Group gap={0}>
                             <ActionIcon variant="transparent" onClick={toggle}>
-                                <Image src={"./images/icons/hamburger.svg"} alt="menu" />
+                                <Image src={"../images/icons/hamburger.svg"} alt="menu" />
                             </ActionIcon>
                         </Group>
-                        <Image w={100} src={"/images/logo.svg"} alt="madera" />
+                        <Image w={100} src={"./images/logo.svg"} alt="madera" />
                         <Flex ml="xl" gap={"lg"} w={"auto"} visibleFrom="md">
                             <ActionIcon variant="transparent">
-                                <Image src={"/images/icons/search.svg"} alt="search" />
+                                <Image src={"./images/icons/search.svg"} alt="search" />
                             </ActionIcon>
                             <ActionIcon variant="transparent">
-                                <Image src={"/images/icons/shopping_cart.svg"} alt="search" />
+                                <Image src={"./images/icons/shopping_cart.svg"} alt="search" />
                             </ActionIcon>
                             <ActionIcon variant="transparent">
-                                <Image src={"/images/icons/user.svg"} alt="search" />
+                                <Image src={"./images/icons/user.svg"} alt="search" />
                             </ActionIcon>
                         </Flex>
                     </Group>
@@ -40,13 +40,13 @@ export default function Layout({ children }: { children: React.ReactNode }) {
 
             <AppShell.Navbar py="md" px={4} bg={"madera.9"}>
                 <Stack ml="xl" gap={"lg"} w={"auto"}>
-                    <Button justify="flex-start" c={"madera.1"} variant="transparent" leftSection={<Image src={"/images/icons/search.svg"} alt="search" />}>
+                    <Button justify="flex-start" c={"madera.1"} variant="transparent" leftSection={<Image src={"./images/icons/search.svg"} alt="search" />}>
                         Search Madera
                     </Button>
-                    <Button justify="flex-start"  c={"madera.1"} variant="transparent" leftSection={<Image src={"/images/icons/shopping_cart.svg"} alt="search" />}>
+                    <Button justify="flex-start"  c={"madera.1"} variant="transparent" leftSection={<Image src={"./images/icons/shopping_cart.svg"} alt="search" />}>
                         Madera Cart
                     </Button>
-                    <Button justify="flex-start"  c={"madera.1"} variant="transparent" leftSection={<Image src={"/images/icons/user.svg"} alt="search" />}>
+                    <Button justify="flex-start"  c={"madera.1"} variant="transparent" leftSection={<Image src={"./images/icons/user.svg"} alt="search" />}>
                         Profile
                     </Button>
                 </Stack>

@@ -5,7 +5,7 @@ export default function Testimonials() {
     return (
         <Grid gutter={0}>
             <Grid.Col span={{ base: 12, md: 7 }}>
-                <BackgroundImage src={"/images/bedroom.jpg"} h={{base: "50vh", md: "90vh"}} />
+                <BackgroundImage src={"./images/bedroom.jpg"} h={{base: "50vh", md: "90vh"}} />
             </Grid.Col>
             <Grid.Col span={{ base: 12, md: 5 }} px={{ base: "30px", md: "40px" }} pb={{base: "5rem", md: 0}}>
                 <Stack h={"100%"} justify="center" gap={0}>

@@ -10,7 +10,7 @@ export default function Footer() {
             justify="space-between"
             style={{
                 backgroundColor: "var(--mantine-color-madera-9)",
-                backgroundImage: "url('/images/madera_footer.svg')",
+                backgroundImage: "url('./images/madera_footer.svg')",
                 backgroundRepeat: "no-repeat",
                 backgroundSize: isMobile ? "contain" : "cover",
                 backgroundPosition: isMobile ? "0% 100%" : "50% 60%"
@@ -61,16 +61,16 @@ export default function Footer() {
                     </Stack>
                     <Flex gap={"md"}>
                         <Anchor href="#" p={"xs"} bd={"1px solid var(--mantine-color-madera-1)"}>
-                            <Image src={"/images/icons/facebook.svg"} alt="facebook" />
+                            <Image src={"./images/icons/facebook.svg"} alt="facebook" />
                         </Anchor>
                         <Anchor href="#" p={"xs"} bd={"1px solid var(--mantine-color-madera-1)"}>
-                            <Image src={"/images/icons/instagram.svg"} alt="facebook" />
+                            <Image src={"./images/icons/instagram.svg"} alt="facebook" />
                         </Anchor>
                         <Anchor href="#" p={"xs"} bd={"1px solid var(--mantine-color-madera-1)"}>
-                            <Image src={"/images/icons/x.svg"} alt="facebook" />
+                            <Image src={"./images/icons/x.svg"} alt="facebook" />
                         </Anchor>
                         <Anchor href="#" p={"xs"} bd={"1px solid var(--mantine-color-madera-1)"}>
-                            <Image src={"/images/icons/pintrest.svg"} alt="facebook" />
+                            <Image src={"./images/icons/pintrest.svg"} alt="facebook" />
                         </Anchor>
                     </Flex>
                 </Stack>

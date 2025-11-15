@@ -27,7 +27,7 @@ export default function HeroSection() {
                 top={0}
                 left={0}
                 style={{
-                    backgroundImage: "linear-gradient(to bottom, rgba(23, 22, 22, 0.76), rgba(2, 2, 2, 0.06)), url('/images/hero_section_bg.png')",
+                    backgroundImage: "linear-gradient(to bottom, rgba(23, 22, 22, 0.76), rgba(2, 2, 2, 0.06)), url('./images/hero_section_bg.png')",
                     backgroundSize: "cover",
                     backgroundRepeat: "no-repeat",
                     backgroundPosition: "center 80%",
@@ -43,9 +43,9 @@ export default function HeroSection() {
                 </Grid.Col>
                 <Grid.Col span={4} visibleFrom="md">
                     <Group gap={"md"} align="flex-end" justify="flex-end" h={"100%"}>
-                        <Image src={"/images/chair.png"} alt="chair" h={"80px"} w={"80px"} />
-                        <Image src={"/images/table.jpg"} alt="table" h={"80px"} w={"80px"} />
-                        <Image src={"/images/room.jpg"} alt="room" h={"80px"} w={"80px"} />
+                        <Image src={"./images/chair.png"} alt="chair" h={"80px"} w={"80px"} />
+                        <Image src={"./images/table.jpg"} alt="table" h={"80px"} w={"80px"} />
+                        <Image src={"./images/room.jpg"} alt="room" h={"80px"} w={"80px"} />
                     </Group>
                 </Grid.Col>
                 <Grid.Col span={{base: 12, md: 8}} mt={"3rem"}>
