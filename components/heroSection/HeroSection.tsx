@@ -16,10 +16,10 @@ const textStyle = {
 export default function HeroSection() {
     const isMobile = useMediaQuery('(max-width: 36em)');
     const { ref: textRef, height: textHeight } = useElementSize();
-    const bgHeight = `calc(${isMobile ? "65vh" : "80vh"} - (0.3 * ${textHeight}px) )`;
+    const bgHeight = `calc(${isMobile ? "65vh" : "76vh"} - (0.3 * ${textHeight}px) )`;
 
     return (
-        <Container fluid w={"100vw"} h={isMobile ? "90vh" : "93vh"} my={"-md"}>
+        <Container fluid w={"100vw"} h={isMobile ? "90vh" : "93vh"} my={"-md"} px={{base: "30px", md: "40px"}}>
             <Container fluid
                 pos={"absolute"}
                 h={bgHeight}
@@ -35,7 +35,7 @@ export default function HeroSection() {
                 }} />
             <Grid w={"100%"} px={"40px"} py={"0px"} mb={"0rem"} pos={"absolute"} left={0} top={0}>
                 <Grid.Col span={8}>
-                    <Group align="flex-end" h={isMobile ? "65vh" : "80vh"}>
+                    <Group align="flex-end" h={isMobile ? "65vh" : "76vh"}>
                         <Title ref={textRef} order={2} tt={"uppercase"} fz={{base: "5.5rem", md: "12rem"}} fw={"lighter"} style={textStyle}>
                             Madera
                         </Title>
@@ -49,7 +49,7 @@ export default function HeroSection() {
                     </Group>
                 </Grid.Col>
                 <Grid.Col span={{base: 12, md: 8}} mt={"3rem"}>
-                    <Text fw={500} fz={{base: "20px", md:  "40px"}} style={{ letterSpacing: -2, lineHeight: 1.2 }}>
+                    <Text fw={500} fz={{base: "20px", md:  "35px"}} style={{ letterSpacing: -2, lineHeight: 1.2 }}>
                         Experience hand-finished woodwork, designed to enrich your space with warmth and character
                     </Text>
                 </Grid.Col>

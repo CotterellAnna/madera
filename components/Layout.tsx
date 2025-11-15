@@ -52,7 +52,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                 </Stack>
             </AppShell.Navbar>
 
-            <AppShell.Main px={{ base: "30px", md: "40px" }}>
+            <AppShell.Main px={0}>
                 {children}
             </AppShell.Main>
         </AppShell>

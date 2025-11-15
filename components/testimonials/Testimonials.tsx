@@ -3,7 +3,7 @@ import { Titan_One } from "next/font/google";
 
 export default function Testimonials() {
     return (
-        <Grid mx={{ base: "-md", md: "-40px" }}>
+        <Grid px={{base: "30px", md: "0px"}}>
             <Grid.Col span={{ base: 12, md: 7 }}>
                 <BackgroundImage src={"/images/bedroom.jpg"} h={"90vh"} />
             </Grid.Col>
