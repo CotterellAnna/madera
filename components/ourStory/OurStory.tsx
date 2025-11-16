@@ -19,11 +19,11 @@ export default function OurStory() {
                 <Grid.Col span={{ base: 12, md: 7.5 }}>
                     <Flex align={"flex-end"} direction={{base: "column", md: "row"}}>
                         <Image src={"./images/our_story.jpg"} alt="our story" w={450} h={{base: 500, md: 600}} />
-                        <Text className={fontClassNames.cormorantGaramond} ms={"lg"} mt={{base: "md", md: 0}} fz={{base: "28px", md: "48px"}} fw={700}>
+                        <Text className={fontClassNames.cormorantGaramond} ms={"lg"} mt={{base: "md", md: 0}} fz={{base: "28px", md: "40px", lg: "48px"}} fw={700}>
                             TIMELESS <br /> 
                             FURNITURE <br /> 
                             DESIGNED <br /> 
-                            <Text td={"underline dotted"} fz={{base: "28px", md: "48px"}} fw={700} span>
+                            <Text td={"underline dotted"} fz={{base: "28px", md: "40px", lg: "48px"}} fw={700} span>
                                 JUST FOR YOU
                             </Text>
                         </Text>
