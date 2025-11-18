@@ -6,7 +6,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     const [scroll] = useWindowScroll();
     return (
         <AppShell
-            header={{ height: "7vh" }}
+            header={{ height: "10vh" }}
             navbar={{ width: 300, breakpoint: 'sm', collapsed: { desktop: true, mobile: !opened } }}
             padding="md"
             pos={"relative"}
@@ -16,7 +16,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
                     scroll.y > 50 ? "var(--mantine-color-madera-9)" : "transparent",
             }}>
                 <Group h="98%" px="md">
-                    <Group justify="space-between" flex={1}>
+                    <Group justify="space-between" align="center" flex={1}>
                         <Group gap={0}>
                             <ActionIcon variant="transparent" onClick={toggle}>
                                 <Image src={"./images/icons/hamburger.svg"} alt="menu" />
